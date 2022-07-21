@@ -1,6 +1,6 @@
 .login {
-  width: 50%;
-  max-width: 30rem;
+  width: 60%;
+  max-width: 40rem;
   margin: 2rem auto;
   padding: 2rem;
 }
@@ -22,7 +22,7 @@
   font-weight: bold;
   flex: 1;
   color: #464646;
-  margin-bottom: 0.5rem;
+  margin: 0.3rem;
 }
 
 .control input {
@@ -35,8 +35,8 @@
 
 .control input:focus {
   outline: none;
-  border-color: #4f005f;
-  background: #f6dbfc;
+  border-color: #aeaeae;
+  background: #f0f0f0;
 }
 
 .control.invalid input {
