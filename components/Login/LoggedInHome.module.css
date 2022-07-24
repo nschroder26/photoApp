@@ -1,0 +1,13 @@
+.home-card {
+  text-align: center;
+  margin: auto;
+}
+
+.home-text {
+  padding: 3rem;
+}
+
+.home-button {
+  padding: 1rem 4rem;
+  margin-bottom: 1rem;
+}

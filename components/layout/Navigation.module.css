@@ -4,14 +4,15 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #77002e;
+  background-color: #000000;
   padding: 0 10%;
 }
 
-.logo {
+.header .logo a {
   font-size: 2rem;
   color: white;
   font-weight: bold;
+  border: none;
 }
 
 .header ul {
@@ -29,11 +30,20 @@
 .header a {
   text-decoration: none;
   font-size: 1.5rem;
-  color: #fcb8d2;
+  color: #ffffff;
 }
 
-.header a:hover,
-.header a:active,
-.header a.active {
-  color: white;
+.header button {
+  background-color: #000000;
+  border: none;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.header nav a:hover,
+.header nav button:hover,
+.header nav a:active,
+.header nav a.active {
+  color: rgb(205, 205, 205);
 }
