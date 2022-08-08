@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Router from "next/router";
 import { useDispatch, useSelector } from "react-redux";
 import { authActions } from "../Store/auth-slice";
 
@@ -20,7 +21,7 @@ const Navigation = () => {
         <ul>
           {!userLoggedIn && (
             <li>
-              <Link href="/login">Login</Link>
+              <Link href="/">Login</Link>
             </li>
           )}
           {userLoggedIn && (

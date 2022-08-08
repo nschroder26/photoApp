@@ -1,0 +1,14 @@
+.card {
+  max-width: 10rem;
+}
+
+.username {
+  font-size: large;
+  padding: 0rem 0rem 1rem 1rem;
+}
+
+.image {
+  max-width: 100%;
+  padding: 1.5rem;
+  border-radius: 50%;
+}
