@@ -1,5 +1,5 @@
-import ProfileCard from "../../components/profile/ProfileCard";
-import ProfileInfo from "../../components/Profile/ProfileInfo";
+import ProfileCard from "../../components/UserProfile/ProfileCard";
+import ProfileInfo from "../../components/UserProfile/ProfileInfo";
 import classes from "./index.module.css";
 
 const Profile = () => {

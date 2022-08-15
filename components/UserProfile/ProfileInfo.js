@@ -1,5 +1,4 @@
 import { Fragment } from "react";
-import ProfileCard from "./ProfileCard";
 import classes from "./ProfileInfo.module.css";
 
 const ProfileInfo = () => {

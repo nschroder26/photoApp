@@ -1,15 +1,17 @@
 import Link from "next/link";
-import Button from "../UI/Button";
 import Card from "../UI/Card";
 
 import classes from "./LoggedInHome.module.css";
+import classed from "../UI/Button.module.css";
 
 const LoggedInHome = () => {
   return (
     <Card className={classes["home-card"]}>
       <h1 className={classes["home-text"]}>Test</h1>
       <Link href="/photos">
-        <Button className={classes["home-button"]}>Photo Gallery</Button>
+        <button className={`${classes["home-button"]} ${classed.button}`}>
+          Photo Gallery
+        </button>
       </Link>
     </Card>
   );
