@@ -8,8 +8,10 @@ import classes from "./Navigation.module.css";
 const Navigation = () => {
   const userLoggedIn = useSelector((state) => state.auth.isLoggedIn);
   const dispatch = useDispatch();
+  const router = useRouter();
   const logoutUserHandler = () => {
     dispatch(authActions.logoutUser());
+    router.push("/");
   };
   return (
     <header className={classes.header}>
