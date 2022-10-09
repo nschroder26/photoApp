@@ -1,4 +1,4 @@
-import Card from "../UI/Card";
+import Card from "react-bootstrap/Card";
 import Button from "../UI/Button";
 
 import classes from "./LoginForm.module.css";

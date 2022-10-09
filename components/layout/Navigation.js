@@ -17,7 +17,13 @@ const Navigation = () => {
     router.push("/");
   };
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar
+      collapseOnSelect
+      expand="lg"
+      bg="dark"
+      variant="dark"
+      className={classes.navbar}
+    >
       <Container>
         <Link href="/" passHref>
           <Navbar.Brand href="/">PhotoApp</Navbar.Brand>
